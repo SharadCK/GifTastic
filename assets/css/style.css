@@ -1,0 +1,87 @@
+body {
+	background-image: url("../images/bckgd.jpg");
+	padding: 1vw;
+}
+
+form {
+	float: right;
+	padding-right: 5px;
+	width: 20%;
+}
+
+h2{
+color: #14040a;
+text-align: center;
+}
+
+ h3 {
+	color: #20050e;
+}
+
+input, label {
+	display: block;
+	width: 100%;
+}
+
+label {
+	text-align: center;
+}
+
+.jumbotron {
+   background-color: #ddf0ec;
+   color:  #535a52;
+}
+.gif {
+	max-width: 70%;
+}
+
+.gif-div {
+	width: 90%;
+}
+
+.gif-div-individual {
+	display: inline-grid;
+	width: 33%;
+}
+
+.gif-finder-btn {
+	background-color: #2cf3ab;
+	color: #021b12;
+	font-size: 1.5em;
+	border-radius: 12px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+
+#add-event {
+	background-color: #7a3675;
+	color: #380416;
+	font-size: 1.5em;
+	border-radius: 12px;
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+
+#add-event:hover {
+	font-size: 1.6em;
+	font-weight: bold;
+	width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+	form {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	form {
+		float: none;
+		margin: auto;
+		width: 80%;
+	}
+}
